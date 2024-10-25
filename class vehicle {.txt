@@ -1,0 +1,17 @@
+class vehicle {
+protected String brand ="Ford";
+public  void hunk()
+{
+System .out.println("Tuut tuut");
+}
+}
+class car extends vehicle 
+{
+private String modelname ="Mustang";
+public static vid main(String []args)
+{
+car myfastcar=new car();
+myfastcar.honk();
+  System .out.println(myfastcar brand+" "+mayfastcarmodelname);
+}
+}
